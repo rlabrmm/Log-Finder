@@ -24,7 +24,7 @@ def entring():
     i = 1
     while True:
         l = input()
-        if l == 'end' or 'End' or 'END' or '' :
+        if l == 'end' or l =='End' or l =='END' or l =='' :
             break
         print('\n', i, '> ', l)
         log_input.append(l)
